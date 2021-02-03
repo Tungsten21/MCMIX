@@ -1,0 +1,144 @@
+﻿body{
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: dodgerblue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . . ."
+                         ". heading heading heading heading ."  
+                         ". . . . . ."
+                         ". regCon regCon loginCon loginCon ."
+                         ". regCon regCon loginCon loginCon ."
+                         ". regCon regCon loginCon loginCon ."
+                         ". regCon regCon loginCon loginCon ."   
+                         ". . . . . ."
+                         ". . . . . ."  
+                         ". . . . . .";
+
+                            
+}
+
+.regCon {
+    display: grid;
+    grid-area: regCon;
+    background-color: darkblue;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . . . . . . . . . . ."
+                         ". txtFirstName txtFirstName txtFirstName txtFirstName txtFirstName . . txtLastName txtLastName txtLastName txtLastName txtLastName ."
+                         ". . . . . . . . . . . . . ."
+                         ". txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail txtEmail ."
+                         ". . . . . . . . . . . . . ."
+                         ". txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername txtInputUsername ."
+                         ". . . . . . . . . . . . . ."
+                         ". txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 txtInputPassword1 ."
+                         ". . . . . . . . . . . . . ."
+                         ". txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 txtInputPassword2 ."
+                         ". . . . . . . . . . . . . ."
+                         ". lbxGender lbxGender lbxGender lbxGender . . . . . . . . ."
+                         ". . . . . . . . . . . . . ."
+                         ". txtDOB txtDOB txtDOB txtDOB txtDOB . . . . . . . ."
+                         ". radioCon radioCon radioCon radioCon radioCon radioCon radioCon radioCon . . . . ."
+                         ". . . . . . . . . . . . . ."
+                         ". . . btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp . . ."
+                         ". . . btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp btnSignUp . . ."
+                         ". . . . . . lblReg lblReg . . . . . ."
+                         ". . . . . . . . . . . . . .";
+}
+
+.loginCon {
+    grid-area: loginCon;
+    background-color: navy;
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . ."
+                         ". . . . ."
+                         ". txtUsername txtUsername txtUsername ."
+                         ". . . . ."
+                         ". txtPassword txtPassword txtPassword ."
+                         ". . . . ."
+                         ". . . . ."
+                         ". . btnSignIn . ."
+                         ". . lblStatus . ."
+                         ". . . . .";
+
+}
+
+
+
+.txtUsername{
+    grid-area: txtUsername;
+}
+
+.txtPassword{
+    grid-area: txtPassword;
+}
+
+.btnSignIn{
+    grid-area: btnSignIn;
+}
+
+.lblStatus{
+    grid-area: lblStatus;
+    margin: auto;
+}
+
+.txtFirstName{
+    grid-area: txtFirstName;
+}
+
+.txtLastName {
+    grid-area: txtLastName;
+}
+
+.txtEmail{
+    grid-area: txtEmail;
+}
+
+.txtInputUsername{
+    grid-area: txtInputUsername;
+}
+
+.txtInputPassword1{
+    grid-area: txtInputPassword1;
+}
+
+.txtInputPassword2 {
+    grid-area: txtInputPassword2;
+}
+
+.lbxGender{
+    grid-area: lbxGender;
+}
+
+.radioCon{
+    display: flex;
+    flex-direction: row;
+    grid-area: radioCon;
+}
+
+.btnSignUp{
+    grid-area: btnSignUp;
+}
+
+.lblReg{
+    grid-area: lblReg;
+}
+
+.txtDOB{
+    grid-area: txtDOB;
+}
+
+.heading{
+    grid-area: heading;
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}

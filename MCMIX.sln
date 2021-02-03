@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MCMIX", ".", "{D9FB037C-E61A-4225-8D59-4AB0BCD857C1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56711"
+		Debug.AspNetCompiler.PhysicalPath = "..\MCMIX\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56711\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56711"
+		Release.AspNetCompiler.PhysicalPath = "..\MCMIX\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56711\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56711"
+		SlnRelativePath = "..\MCMIX\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9FB037C-E61A-4225-8D59-4AB0BCD857C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FB037C-E61A-4225-8D59-4AB0BCD857C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7119EDAB-B9D1-4424-9A98-67BB27FF6663}
+	EndGlobalSection
+EndGlobal

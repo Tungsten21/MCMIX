@@ -1,0 +1,68 @@
+﻿body{
+    height: 100vh;
+    margin: 0;
+}
+
+.userContainer {
+    background-color: dodgerblue;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . ." 
+                         ". . . . ."
+                         ". . . . ."
+                         ". . . . ."
+                         ". txtUsername txtUsername txtUsername ."  
+                         ". . . . ." 
+                         ". txtAccountType txtAccountType . ."
+                         ". . . . ."
+                         ". txtFirstName . . ." 
+                         ". . . . ."
+                         ". txtLastName . . ." 
+                         ". . . . ."
+                         ". txtGender . . ."
+                         ". . . . ." 
+                         ". txtEmail txtEmail . ." 
+                         ". . . . ." 
+                         ". . . . ."
+                         ". btnLogOut . . ."
+                         ". . . . ." 
+                         ". . . . .";
+}
+
+.btnLogOut{
+    grid-area: btnLogOut;
+}
+
+.txtFirstName{
+    grid-area: txtFirstName;
+    width: 20em;
+    height: 4em;
+}
+
+.txtLastName {
+    grid-area: txtLastName;
+    width: 20em;
+    height: 4em;
+}
+
+.txtUsername {
+    grid-area: txtUsername;
+    height: 4em;
+}
+
+.txtAccountType{
+    grid-area: txtAccountType;
+}
+
+.txtGender {
+    grid-area: txtGender;
+}
+
+.txtEmail{
+grid-area: txtEmail;
+}
+
+

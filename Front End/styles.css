@@ -1,0 +1,99 @@
+#main{
+    height: 100vh;
+    background-color: blue;
+}
+
+.maincon{
+    position: relative;
+    height: 50vh;
+    width: 35vh;
+    margin: 0 auto;
+    border-radius: 25px;
+    border-color: blue;
+    
+}
+
+.login{
+    
+    
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . ."
+               ". lblCon1 lblCon1 ."
+               ". . . ."
+               ". txtCon1 txtCon1 ."
+               ". txtCon2 txtCon2 ."
+               ". . . ."
+               ". . . ."
+               ". . . ."
+               ". btnCon1 btnCon1 ."
+               ". . . .";
+}
+
+
+.btnSignIn{
+   width: 176px;
+    border-radius: 25px;
+    background-color: white;
+   border-color: darkcyan;
+   color: white;
+    
+    padding: 10px;
+}
+
+.btnSignIn:hover{
+    background-color: blue;
+}
+
+.txtbox1{
+    grid-area: txtbox1;
+    height: 1.5em;
+    width: 20em;
+    border-color: darkcyan;
+    border-width: 2px;
+    color: white;
+}
+
+
+
+.txtbox2{
+    grid-area: txtbox2;
+    height: 1.5em;
+    width: 20em;
+    border-color: darkcyan;
+    border-width: 2px;
+    color: white;
+    
+}
+
+.txtCon1{
+    grid-area: txtCon1;
+    background-color: black;
+}
+
+.txtCon2{
+    grid-area: txtCon2;
+    
+}
+
+.btnCon1{
+    grid-area: btnCon1;
+}
+
+.lblSignIn{
+    grid-area: lblSignIn;
+    font-size: 0.8em;
+    color: cornflowerblue;
+}
+
+.lblCon1{
+    grid-area: lblCon1;
+}
+
+.mc2{
+    
+}
